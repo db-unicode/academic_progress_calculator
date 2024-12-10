@@ -16,10 +16,6 @@ class SubjectQueries:
         # Filter records for the specified subject
         subject_records = df[df['MATERIA'] == subject_code].copy()
         
-        # Check if records are found for the subject
-        if subject_records.empty:
-            print(f"No records found for subject code: {subject_code}")
-        
         return subject_records.reset_index(drop=True)
 
     @staticmethod

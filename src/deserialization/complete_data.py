@@ -27,8 +27,11 @@ class CompleteData:
         :param file_path: The Path to the JSON file containing the data.
         :return: An instance of CompleteData with course bundles and related course bundle groups initialized.
         """
-        with file_path.open('r') as file:
+        with file_path.open('r', encoding='utf-8') as file:  # Se especifica la codificación utf-8
             data = json.load(file)
+        
+        # Convert the new simple_courses format into a list of course codes
+        simple_courses = [course["code"] for course in data["simple_courses"]]
         
         # Convert each course bundle in JSON to a CourseBundle instance
         course_bundles: Dict[str, CourseBundle] = {
@@ -38,7 +41,7 @@ class CompleteData:
         
         # Initialize the instance with simple_courses and course_bundles
         instance = cls(
-            simple_courses=data["simple_courses"],
+            simple_courses=simple_courses,
             course_bundles=course_bundles
         )
         

@@ -17,10 +17,17 @@ class CourseBundle:
 
     @classmethod
     def from_json(cls: Type['CourseBundle'], data: dict) -> 'CourseBundle':
+        """
+        Creates a CourseBundle instance from a JSON dictionary.
+        Supports the updated JSON format where courses have additional attributes.
+        """
+        courses = {
+            code: course_data["type"] for code, course_data in data["courses"].items()
+        }
         return cls(
             minimum_credits_to_pass=data["minimum_credits_to_pass"],
             related_bundles=data["related_bundles"],
-            courses=data["courses"]
+            courses=courses
         )
 
     def __str__(self) -> str:

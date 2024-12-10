@@ -5,9 +5,11 @@ from student_registry_manager.student_registry_manager import StudentRegistryMan
 class RelatedCourseBundlesLogic:
     @staticmethod
     def _get_total_credits(related_course_bundles: RelatedCourseBundles, course_bundle_name: str) -> int:
-        """Retrieves the minimum credits to pass for a given course bundle."""
+        """
+        Retrieves the minimum credits to pass for a given course bundle.
+        """
         bundle = related_course_bundles[course_bundle_name]
-        return bundle.minimum_credits_to_pass  # Use minimum_credits_to_pass directly
+        return bundle.minimum_credits_to_pass  # Assuming this is always an integer
 
     @staticmethod
     def _calculate_approved_credits(
@@ -15,10 +17,13 @@ class RelatedCourseBundlesLogic:
         student_registry_manager: StudentRegistryManager, 
         course_bundle_name: str
     ) -> float:
-        """Calculates the total approved credits for a given course bundle."""
+        """
+        Calculates the total approved credits for a given course bundle.
+        Ensures all credit values are numeric to avoid type errors.
+        """
         bundle = related_course_bundles[course_bundle_name]
         return sum(
-            student_registry_manager.get_subject_credits(subject)
+            float(student_registry_manager.get_subject_credits(subject))
             for subject in bundle.courses.keys()
             if student_registry_manager.approve_subject_until_specified_period(subject)
         )
@@ -29,7 +34,9 @@ class RelatedCourseBundlesLogic:
         student_registry_manager: StudentRegistryManager, 
         course_bundle_name: str
     ) -> Set[str]:
-        """Gets the set of approved subject codes for a given course bundle."""
+        """
+        Gets the set of approved subject codes for a given course bundle.
+        """
         bundle = related_course_bundles[course_bundle_name]
         return {
             subject
@@ -39,12 +46,24 @@ class RelatedCourseBundlesLogic:
 
     @staticmethod
     def _calculate_completion_percentage(total_credits: int, approved_credits: float) -> float:
-        """Calculates the completion percentage for a bundle."""
-        return (approved_credits / total_credits * 100) if total_credits > 0 else 0.0
+        """
+        Calculates the completion percentage for a bundle.
+        Ensures the value does not exceed 100.
+        """
+        if total_credits == 0:
+            return 0.0
+        completion_percentage = (approved_credits / total_credits) * 100
+        return min(completion_percentage, 100.0)  # Cap at 100%
 
     @staticmethod
     def _get_bundle_with_highest_approved_percentage(bundles_info: Dict[str, Dict[str, Any]]) -> Dict[str, Any]:
-        """Finds the bundle with the highest approved percentage."""
+        """
+        Finds the bundle with the highest approved percentage.
+        Returns an empty dictionary if bundles_info is empty.
+        """
+        if not bundles_info:
+            return {}
+        
         highest = max(
             bundles_info.items(),
             key=lambda x: x[1]["completion_percentage"]
@@ -73,22 +92,25 @@ class RelatedCourseBundlesLogic:
         bundles_info: Dict[str, Dict[str, Any]] = {}
         
         for bundle_name in related_course_bundles.related_bundles.keys():
-            # Use minimum_credits_to_pass directly for total credits
-            total_credits = RelatedCourseBundlesLogic._get_total_credits(related_course_bundles, bundle_name)
-            approved_credits = RelatedCourseBundlesLogic._calculate_approved_credits(
-                related_course_bundles, student_registry_manager, bundle_name
-            )
-            approved_subject_codes = RelatedCourseBundlesLogic._get_approved_subject_codes(
-                related_course_bundles, student_registry_manager, bundle_name
-            )
-            completion_percentage = RelatedCourseBundlesLogic._calculate_completion_percentage(total_credits, approved_credits)
-            
-            bundles_info[bundle_name] = {
-                "total_credits": total_credits,
-                "approved_credits": approved_credits,
-                "approved_subject_codes": approved_subject_codes,
-                "completion_percentage": completion_percentage,
-            }
+            try:
+                # Use minimum_credits_to_pass directly for total credits
+                total_credits = RelatedCourseBundlesLogic._get_total_credits(related_course_bundles, bundle_name)
+                approved_credits = RelatedCourseBundlesLogic._calculate_approved_credits(
+                    related_course_bundles, student_registry_manager, bundle_name
+                )
+                approved_subject_codes = RelatedCourseBundlesLogic._get_approved_subject_codes(
+                    related_course_bundles, student_registry_manager, bundle_name
+                )
+                completion_percentage = RelatedCourseBundlesLogic._calculate_completion_percentage(total_credits, approved_credits)
+                
+                bundles_info[bundle_name] = {
+                    "total_credits": total_credits,
+                    "approved_credits": approved_credits,
+                    "approved_subject_codes": approved_subject_codes,
+                    "completion_percentage": completion_percentage,
+                }
+            except KeyError as e:
+                print(f"Error processing bundle {bundle_name}: {e}")
         
         highest_approved_percentage_info = RelatedCourseBundlesLogic._get_bundle_with_highest_approved_percentage(bundles_info)
         

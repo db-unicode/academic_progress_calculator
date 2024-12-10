@@ -1,0 +1,452 @@
+{
+    "simple_courses": [
+        {
+            "code": "IELE-1000",
+            "name": "Introducción a IEE"
+        },
+        {
+            "code": "IELE-1400",
+            "name": "Fundamentos de Redes"
+        },
+        {
+            "code": "IELE-1006",
+            "name": "Fund. de Circuitos"
+        },
+        {
+            "code": "IELE-2206",
+            "name": "Fund. de Electrónica"
+        },
+        {
+            "code": "IELE-2402",
+            "name": "Comunicaciones"
+        },
+        {
+            "code": "IELE-2100",
+            "name": "Elem. Sist. Eléctricos"
+        },
+        {
+            "code": "MATE-1203",
+            "name": "Cal. Diferencial"
+        },
+        {
+            "code": "IELE-2210",
+            "name": "Sis. Electron Digitales"
+        },
+        {
+            "code": "MATE-1207",
+            "name": "Cal.Vectorial"
+        },
+        {
+            "code": "IELE-2500",
+            "name": "Señales"
+        },
+        {
+            "code": "IELE-2300",
+            "name": "Análisis Sist. Control"
+        },
+        {
+            "code": "FISI-1018",
+            "name": "Física I"
+        },
+        {
+            "code": "MATE-1214",
+            "name": "Cal. Integral Y Ec. Diferenciales"
+        },
+        {
+            "code": "MATE-2210",
+            "name": "Variable Compleja"
+        },
+        {
+            "code": "IELE-2002",
+            "name": "Teoría Electromag."
+        },
+        {
+            "code": "IELE-3200",
+            "name": "Electrónica Análoga"
+        },
+        {
+            "code": "IELE-3006",
+            "name": "Optimización"
+        },
+        {
+            "code": "FISI-1019",
+            "name": "Física Exp. I"
+        },
+        {
+            "code": "MATE-1105",
+            "name": "Álgebra Lineal"
+        },
+        {
+            "code": "IELE-2010",
+            "name": "Materiales para IEE"
+        },
+        {
+            "code": "IIND-2106",
+            "name": "Prob. Y Estadíst. 1"
+        },
+        {
+            "code": "IELE-2009",
+            "name": "Comp. Científ. en IEE"
+        },
+        {
+            "code": "ISIS-1221",
+            "name": "IP"
+        },
+        {
+            "code": "FISI-1028",
+            "name": "Física II"
+        },
+        {
+            "code": "IELE-1502",
+            "name": "Sistemas Dinámicos"
+        },
+        {
+            "code": "IIND-2401",
+            "name": "ANADEC"
+        },
+        {
+            "code": "DERE-1300",
+            "name": "Const. Y Democr."
+        },
+        {
+            "code": "FISI-1029",
+            "name": "Física Exp. II"
+        }
+    ],
+    "course_bundles": {
+        "ELECTIVAS EN CIENCIAS": {
+            "minimum_credits_to_pass": 3,
+            "related_bundles": [],
+            "courses": {
+                "FISI-1038": {
+                    "type": "OPTIONAL",
+                    "name": "ONDAS Y FLUIDOS"
+                },
+                "FISI-1048": {
+                    "type": "OPTIONAL",
+                    "name": "FISICA MODERNA"
+                },
+                "FISI-2405": {
+                    "type": "OPTIONAL",
+                    "name": "MECANICA"
+                },
+                "FISI-2992": {
+                    "type": "OPTIONAL",
+                    "name": "ASTROFISICA ESTELAR"
+                },
+                "MATE-1107": {
+                    "type": "OPTIONAL",
+                    "name": "ALGEBRA LINEAL 2"
+                },
+                "MATE-1407": {
+                    "type": "OPTIONAL",
+                    "name": "GEOMETRÍA ANALÍTICA"
+                },
+                "MATE-2301": {
+                    "type": "OPTIONAL",
+                    "name": "ECUACIONES DIFERENCIALES"
+                },
+                "MATE-2411": {
+                    "type": "OPTIONAL",
+                    "name": "GEOMETRIA DE CURVAS Y SUPERFIC"
+                },
+                "MATE-3712": {
+                    "type": "OPTIONAL",
+                    "name": "TEORIA DE JUEGOS"
+                },
+                "MBIO-2102": {
+                    "type": "OPTIONAL",
+                    "name": "BIOLOGIA MOLECULAR-TEO"
+                },
+                "QUIM-1105": {
+                    "type": "OPTIONAL",
+                    "name": "APLICACIONES DE QUÍMICA"
+                },
+                "QUIM-1301": {
+                    "type": "OPTIONAL",
+                    "name": "QUIMICA ORGANICA"
+                },
+                "QUIM-1303": {
+                    "type": "OPTIONAL",
+                    "name": "FUNDAMENTOS QUÍMICA ORGÁNICA"
+                },
+                "QUIM-1310": {
+                    "type": "OPTIONAL",
+                    "name": "QUÍMICA ORGÁNICA I"
+                },
+                "QUIM-1510": {
+                    "type": "OPTIONAL",
+                    "name": "FISICOQUIMICA I"
+                },
+                "GEOC-1002": {
+                    "type": "OPTIONAL",
+                    "name": "GEOCIENCIAS"
+                },
+                "IBIO-2099": {
+                    "type": "OPTIONAL",
+                    "name": "FISIOLOGIA CUANTITATIVA I"
+                },
+                "IBIO-2100": {
+                    "type": "OPTIONAL",
+                    "name": "FISIOLOGIA CUANTITATIVA II"
+                },
+                "ICYA-1110": {
+                    "type": "OPTIONAL",
+                    "name": "QUIMICA AMBIENTAL"
+                },
+                "ICYA-1111": {
+                    "type": "OPTIONAL",
+                    "name": "INTRODUCCIÓN A LA PROBLEMÁTICA AMBIENTAL"
+                },
+                "IMEC-1201": {
+                    "type": "OPTIONAL",
+                    "name": "TERMOFLUIDOS I"
+                },
+                "IMEC-1410": {
+                    "type": "OPTIONAL",
+                    "name": "CIENCIA DE MATERIALES"
+                },
+                "IMEC-1543": {
+                    "type": "OPTIONAL",
+                    "name": "ESTÁTICA"
+                },
+                "IQUI-2020": {
+                    "type": "OPTIONAL",
+                    "name": "TERMODINAMICA"
+                },
+                "IQUI-2011": {
+                    "type": "OPTIONAL",
+                    "name": "BALANCES DE MATERIA"
+                },
+                "IQUI-2012": {
+                    "type": "OPTIONAL",
+                    "name": "BALANCES DE ENERGÍA"
+                },
+                "IALI-2021": {
+                    "type": "OPTIONAL",
+                    "name": "BIOQUÍMICA DE ALIMENTOS"
+                },
+                "IALI-3023": {
+                    "type": "OPTIONAL",
+                    "name": "MICROBIOLOGÍA DE ALIMENTOS"
+                },
+                "ISIS-1104": {
+                    "type": "OPTIONAL",
+                    "name": "MATEMÁTICA ESTRUCTURAL Y LÓGIC"
+                },
+                "ISIS-1105": {
+                    "type": "OPTIONAL",
+                    "name": "DISEÑO Y ANÁLISIS DE ALGORITMOS"
+                },
+                "ISIS-1107": {
+                    "type": "OPTIONAL",
+                    "name": "FUND. MATEMÁTICOS PARA COMPUTACIÓN"
+                },
+                "ISIS-4208": {
+                    "type": "OPTIONAL",
+                    "name": "ANÁLISIS DE ALGORITMOS"
+                }
+            }
+        },
+        "ELECTIVAS INGENIERIA": {
+            "minimum_credits_to_pass": 3,
+            "related_bundles": [],
+            "courses": {
+                "IBIO-2099": {
+                    "type": "OPTIONAL",
+                    "name": "FISIOLOGIA CUANTITATIVA I"
+                },
+                "IBIO-2100": {
+                    "type": "OPTIONAL",
+                    "name": "FISIOLOGIA CUANTITATIVA II"
+                },
+                "ICYA-1110": {
+                    "type": "OPTIONAL",
+                    "name": "QUIMICA AMBIENTAL"
+                },
+                "ICYA-1116": {
+                    "type": "OPTIONAL",
+                    "name": "ESTATICA"
+                },
+                "ICYA-1125": {
+                    "type": "OPTIONAL",
+                    "name": "GEOMÁTICA"
+                },
+                "ICYA-2401": {
+                    "type": "OPTIONAL",
+                    "name": "MECANICA DE FLUIDOS"
+                },
+                "ICYA-2412": {
+                    "type": "OPTIONAL",
+                    "name": "MECÁNICA DE FLUIDOS AMBIENTAL"
+                },
+                "IIND-2104": {
+                    "type": "OPTIONAL",
+                    "name": "MODELOS PROBABILISTICOS"
+                },
+                "IIND-2107": {
+                    "type": "OPTIONAL",
+                    "name": "PROBABILIDAD Y ESTADISTICA II"
+                },
+                "IIND-2109": {
+                    "type": "OPTIONAL",
+                    "name": "SISTEMAS APOYO A LA DECISION"
+                },
+                "IIND-2202": {
+                    "type": "OPTIONAL",
+                    "name": "FUNDAMENTOS DE PRODUCCION"
+                },
+                "IIND-2404": {
+                    "type": "OPTIONAL",
+                    "name": "ORGANIZACIONES Y MERCADOS"
+                },
+                "IIND-2400": {
+                    "type": "OPTIONAL",
+                    "name": "SIST. DE CONTROL GERENCIAL"
+                },
+                "IMEC-1201": {
+                    "type": "OPTIONAL",
+                    "name": "TERMOFLUIDOS I"
+                },
+                "IMEC-1541": {
+                    "type": "OPTIONAL",
+                    "name": "MECANICA DE SOLIDOS RIGIDOS"
+                },
+                "IMEC-1543": {
+                    "type": "OPTIONAL",
+                    "name": "ESTÁTICA"
+                },
+                "IMEC-1330": {
+                    "type": "OPTIONAL",
+                    "name": "TERMODINÁMICA"
+                },
+                "IMEC-1410": {
+                    "type": "OPTIONAL",
+                    "name": "CIENCIA DE MATERIALES"
+                },
+                "IMEC-1503": {
+                    "type": "OPTIONAL",
+                    "name": "DISEÑO GRAFICO EN INGENIERÍA"
+                },
+                "IQUI-2010": {
+                    "type": "OPTIONAL",
+                    "name": "FUNDAMENTOS PROC. INDUSTRIALES"
+                },
+                "IQUI-2011": {
+                    "type": "OPTIONAL",
+                    "name": "BALANCES DE MATERIA"
+                },
+                "IQUI-2012": {
+                    "type": "OPTIONAL",
+                    "name": "BALANCES DE ENERGÍA"
+                },
+                "IQUI-2020": {
+                    "type": "OPTIONAL",
+                    "name": "TERMODINAMICA"
+                },
+                "IQUI-2101": {
+                    "type": "OPTIONAL",
+                    "name": "FENOMENOS DE TRANSPORTE 1"
+                },
+                "IQUI-2200": {
+                    "type": "OPTIONAL",
+                    "name": "DISEÑO EXPERIM. ING QUIMIC"
+                },
+                "ISIS-1104": {
+                    "type": "OPTIONAL",
+                    "name": "MATEMÁTICA ESTRUCTURAL Y LÓGIC"
+                },
+                "ISIS-1107": {
+                    "type": "OPTIONAL",
+                    "name": "FUND. MATEMÁTICOS PARA COMPUTACIÓN"
+                },
+                "ISIS-1205": {
+                    "type": "OPTIONAL",
+                    "name": "ALGORITMICA Y PROGR. OBJ. II"
+                },
+                "ISIS-1206": {
+                    "type": "OPTIONAL",
+                    "name": "ESTRUCTURAS DE DATOS"
+                },
+                "ISIS-1225": {
+                    "type": "OPTIONAL",
+                    "name": "ESTRUC. DE DATOS Y ALGORITMOS"
+                },
+                "ISIS-1404": {
+                    "type": "OPTIONAL",
+                    "name": "TI EN LAS ORGANIZACIONES"
+                },
+                "ISIS-1105": {
+                    "type": "OPTIONAL",
+                    "name": "DISEÑO Y ANÁLISIS DE ALGORITMOS"
+                },
+                "ISIS-4208": {
+                    "type": "OPTIONAL",
+                    "name": "ANÁLISIS DE ALGORITMOS"
+                },
+                "IALI-2021": {
+                    "type": "OPTIONAL",
+                    "name": "BIOQUÍMICA DE ALIMENTOS"
+                },
+                "IALI-3023": {
+                    "type": "OPTIONAL",
+                    "name": "MICROBIOLOGÍA DE ALIMENTOS"
+                }
+            }
+        },
+        "SISTEMAS ELECTRÓNICOS": {
+            "minimum_credits_to_pass": 9,
+            "related_bundles": ["AUTOMATIZACIÓN", "TELECOMUNICACIONES"],
+            "courses": {
+                "IELE-3206": {
+                    "type": "REQUIRED",
+                    "name": "INSTRUMENTACIÓN ELECTRÓNICA"
+                },
+                "IELE-3222": {
+                    "type": "REQUIRED",
+                    "name": "ARQUITECTURA Y DISEÑO SISTEMAS DIGITALES"
+                },
+                "IELE-3208": {
+                    "type": "REQUIRED",
+                    "name": "TALLER DE ELECTRÓNICA"
+                }
+            }
+        },
+        "AUTOMATIZACIÓN": {
+            "minimum_credits_to_pass": 9,
+            "related_bundles": ["SISTEMAS ELECTRÓNICOS", "TELECOMUNICACIONES"],
+            "courses": {
+                "IELE-3338": {
+                    "type": "REQUIRED",
+                    "name": "ROBÓTICA"
+                },
+                "IELE-3336": {
+                    "type": "REQUIRED",
+                    "name": "AUTOMATIZACIÓN INDUSTRIAL"
+                },
+                "IELE-3330": {
+                    "type": "REQUIRED",
+                    "name": "TALLER DE CONTROL"
+                }
+            }
+        },
+        "TELECOMUNICACIONES": {
+            "minimum_credits_to_pass": 9,
+            "related_bundles": ["SISTEMAS ELECTRÓNICOS", "AUTOMATIZACIÓN"],
+            "courses": {
+                "IELE-4405": {
+                    "type": "REQUIRED",
+                    "name": "REDES Y TELETRÁFICO"
+                },
+                "IELE-4402": {
+                    "type": "REQUIRED",
+                    "name": "TÉCNICAS DE COMUNICACIONES INALÁMBRICAS"
+                },
+                "IELE-3430": {
+                    "type": "REQUIRED",
+                    "name": "TALLER DE COMUNICACIONES"
+                }
+            }
+        }
+    }
+}

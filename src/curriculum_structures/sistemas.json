@@ -1,0 +1,486 @@
+{
+    "simple_courses": [
+        {
+            "code": "MATE-1203",
+            "name": "Cálculo Diferencial"
+        },
+        {
+            "code": "ISIS-1221",
+            "name": "Introducción a la Programación"
+        },
+        {
+            "code": "ISIS-1001",
+            "name": "Introducción a la Ingeniería de Sistemas"
+        },
+        {
+            "code": "ESCR-1101",
+            "name": "Escritura Universitaria 1"
+        },
+        {
+            "code": "DERE-1300",
+            "name": "Constitución y Democracia"
+        },
+        {
+            "code": "ISIS-1225",
+            "name": "Estructuras de Datos y Algorítmos"
+        },
+        {
+            "code": "FISI-1528",
+            "name": "Física 2"
+        },
+        {
+            "code": "MATE-1105",
+            "name": "Álgebra Lineal 1"
+        },
+        {
+            "code": "ISIS-1105",
+            "name": "Diseño y Análisis de Algoritmos"
+        },
+        {
+            "code": "ISIS-1226",
+            "name": "Diseño y Programación O.O."
+        },
+        {
+            "code": "LENG-2999",
+            "name": "Requisito Lectura Inglés"
+        },
+        {
+            "code": "ISIS-1304",
+            "name": "Fundamentos de Infraestructura Tecnológica"
+        },
+        {
+            "code": "MATE-1207",
+            "name": "Cálculo Vectorial"
+        },
+        {
+            "code": "ISIS-1106",
+            "name": "Lenguajes y Máquinas"
+        },
+        {
+            "code": "ISIS-2304",
+            "name": "Sistemas Transaccionales"
+        },
+        {
+            "code": "ISIS-1404",
+            "name": "TI en las Organizaciones"
+        },
+        {
+            "code": "IIND-2401",
+            "name": "Análisis de Decisión e Inversión"
+        },
+        {
+            "code": "ISIS-2007",
+            "name": "Diseño de Productos e Innovación en TI"
+        },
+        {
+            "code": "ISIS-2503",
+            "name": "Arquitectura y Diseño de SW"
+        },
+        {
+            "code": "ISIS-2403",
+            "name": "Arquitectura Empresarial"
+        },
+        {
+            "code": "ISIS-2203",
+            "name": "Infraestructura computacional"
+        },
+        {
+            "code": "ISIS-3301",
+            "name": "Inteligencia de Negocios"
+        },
+        {
+            "code": "ISIS-3710",
+            "name": "Programación con tecnologías web"
+        },
+        {
+            "code": "ISIS-3204",
+            "name": "Infraestructura de Comunicaciones"
+        },
+        {
+            "code": "ISIS-3510",
+            "name": "Construcción de Aplicaciones Móviles"
+        },
+        {
+            "code": "ISIS-3007",
+            "name": "Proyecto de Grado"
+        },
+        {
+            "code": "FISI-1518",
+            "name": "Física 1"
+        },
+        {
+            "code": "MATE-1214",
+            "name": "Cálculo Integral y Ecuaciones Diferenciales"
+        },
+        {
+            "code": "ISIS-3302",
+            "name": "Modelado, Simulación y Optimización"
+        },
+        {
+            "code": "IIND-2106",
+            "name": "Probabilidad y Estadística"
+        },
+        {
+            "code": "ISIS-2603",
+            "name": "Desarrollo de SW en Equipo"
+        },
+        {
+            "code": "ISIS-1107",
+            "name": "Fundamentos Matemáticos para Computación"
+        },
+        {
+            "code": "ISIS-3425",
+            "name": "Sistemas Empresariales"
+        },
+        {
+            "code": "ESCR-1102",
+            "name": "Escritura Universitaria 2"
+        },
+        {
+            "code": "CBCC-1177",
+            "name": "COL: Espacio, Tiempo, Diferencia"
+        }
+    ],
+    "course_bundles": {
+        "ELECTIVAS CIENTIFICAS": {
+            "minimum_credits_to_pass": 6,
+            "related_bundles": [],
+            "courses": {
+                "BIOL-1300": {
+                    "type": "OPTIONAL",
+                    "name": "BIOLOGÍA DE ORGANISMOS"
+                },
+                "BIOL-2205": {
+                    "type": "OPTIONAL",
+                    "name": "INFERENCIA E INFORMÁTICA"
+                },
+                "FISI-1538": {
+                    "type": "OPTIONAL",
+                    "name": "ONDAS Y FLUIDOS"
+                },
+                "FISI-1548": {
+                    "type": "OPTIONAL",
+                    "name": "FISICA MODERNA"
+                },
+                "FISI-1090": {
+                    "type": "OPTIONAL",
+                    "name": "INTRODUCCION A LA ASTRONOMIA GENERAL"
+                },
+                "FISI-2035": {
+                    "type": "OPTIONAL",
+                    "name": "DATA LAB FOR SCIENCES"
+                },
+                "FISI-2526": {
+                    "type": "OPTIONAL",
+                    "name": "MÉTODOS COMPUTACIONALES 1"
+                },
+                "FISI-2540": {
+                    "type": "OPTIONAL",
+                    "name": "TERMODINÁMICA"
+                },
+                "FISI-2940": {
+                    "type": "OPTIONAL",
+                    "name": "ASTROFÍSICA EXTRAGALÁCTICA"
+                },
+                "FISI-3903": {
+                    "type": "OPTIONAL",
+                    "name": "CURSO DIRIGIDO DE ASTRONOMÍA"
+                },
+                "MATE-1064": {
+                    "type": "OPTIONAL",
+                    "name": "PENSAMIENTO A TRAVÉS DE LOS NÚMEROS"
+                },
+                "MATE-1506": {
+                    "type": "OPTIONAL",
+                    "name": "PROB.Y ESTADÍSTICA 2"
+                },
+                "MATE-2210": {
+                    "type": "OPTIONAL",
+                    "name": "CALC VARIABLE COMPL (INGENIER)"
+                },
+                "MATE-2211": {
+                    "type": "OPTIONAL",
+                    "name": "CÁLCULO VARIABLE COMPLEJA"
+                },
+                "MATE-2301": {
+                    "type": "OPTIONAL",
+                    "name": "ECUACIONES DIFERENCIALES"
+                },
+                "MATE-2303": {
+                    "type": "OPTIONAL",
+                    "name": "ECUAC.DIFERENCIAL.(INGENIERÍA)"
+                },
+                "MATE-2411": {
+                    "type": "OPTIONAL",
+                    "name": "GEOMETRÍA DE CURVAS Y SUPERFIC"
+                },
+                "MATE-3712": {
+                    "type": "OPTIONAL",
+                    "name": "TEORÍA DE JUEGOS"
+                },
+                "MBIO-1100": {
+                    "type": "OPTIONAL",
+                    "name": "BIOLOGÍA CELULAR-TEO"
+                },
+                "MBIO-1102": {
+                    "type": "OPTIONAL",
+                    "name": "BIOLOGÍA DE MICROORGANISMOS"
+                },
+                "MBIO-2102": {
+                    "type": "OPTIONAL",
+                    "name": "BIOLOGÍA MOLECULAR-TEO"
+                },
+                "MBIO-2104": {
+                    "type": "OPTIONAL",
+                    "name": "FUND.BIOL.CELULAR Y MOLECULAR"
+                },
+                "QUIM-1103": {
+                    "type": "OPTIONAL",
+                    "name": "QUÍMICA"
+                },
+                "QUIM-1105": {
+                    "type": "OPTIONAL",
+                    "name": "APLICACIONES DE QUÍMICA"
+                },
+                "QUIM-1110": {
+                    "type": "OPTIONAL",
+                    "name": "INTROD TEOR DE ÁTOMOS Y MOLEC"
+                },
+                "QUIM-1301": {
+                    "type": "OPTIONAL",
+                    "name": "QUÍMICA ORGÁNICA"
+                },
+                "QUIM-1303": {
+                    "type": "OPTIONAL",
+                    "name": "FUNDAMENTOS QUÍMICA ORGÁNICA"
+                },
+                "QUIM-2620": {
+                    "type": "OPTIONAL",
+                    "name": "QUIMICA ANALITICA I"
+                },
+                "GEOC-1002": {
+                    "type": "OPTIONAL",
+                    "name": "GEOCIENCIAS"
+                },
+                "GEOC-1006": {
+                    "type": "OPTIONAL",
+                    "name": "PROCESOS EXÓGENOS"
+                },
+                "GEOC-2003": {
+                    "type": "OPTIONAL",
+                    "name": "ESTRATIGRAFIA Y SEDIMENTOLOGÍA"
+                },
+                "GEOC-3005": {
+                    "type": "OPTIONAL",
+                    "name": "COLOM. A TRAVÉS TIEMPO GEOLÓG."
+                },
+                "IBIO-2099": {
+                    "type": "OPTIONAL",
+                    "name": "FISIOL. CUANTIT. ING. BIOMEDI1"
+                },
+                "ICYA-1110": {
+                    "type": "OPTIONAL",
+                    "name": "QUÍMICA AMBIENTAL"
+                },
+                "ICYA-1116": {
+                    "type": "OPTIONAL",
+                    "name": "ESTÁTICA"
+                },
+                "ICYA-2001": {
+                    "type": "OPTIONAL",
+                    "name": "MODELACIÓN Y ANÁLISIS NUMÉRICO"
+                },
+                "ICYA-2101": {
+                    "type": "OPTIONAL",
+                    "name": "TERMOQUIMICA AMBIENTAL"
+                },
+                "IELE-1002": {
+                    "type": "OPTIONAL",
+                    "name": "FUNDAMENTOS DE CIRCUITOS"
+                },
+                "IELE-1006": {
+                    "type": "OPTIONAL",
+                    "name": "FUNDAMENTOS DE CIRCUITOS"
+                },
+                "IELE-1502": {
+                    "type": "OPTIONAL",
+                    "name": "SISTEMAS DINÁMICOS"
+                },
+                "IELE-2002": {
+                    "type": "OPTIONAL",
+                    "name": "TEORÍA ELECTROMAGNÉTICA"
+                },
+                "IELE-2010": {
+                    "type": "OPTIONAL",
+                    "name": "MATERIALES PARA IEE"
+                },
+                "IMEC-1543": {
+                    "type": "OPTIONAL",
+                    "name": "ESTÁTICA"
+                },
+                "IELE-2500": {
+                    "type": "OPTIONAL",
+                    "name": "SEÑALES"
+                },
+                "IIND-2104": {
+                    "type": "OPTIONAL",
+                    "name": "MODELOS PROBABILÍSTICOS"
+                },
+                "IIND-2107": {
+                    "type": "OPTIONAL",
+                    "name": "PROBABILIDAD Y ESTADÍSTICA II"
+                },
+                "IQYA-2011": {
+                    "type": "OPTIONAL",
+                    "name": "BALANCES DE MATERIA"
+                },
+                "IQYA-2020": {
+                    "type": "OPTIONAL",
+                    "name": "TERMODINÁMICA"
+                },
+                "IQYA-2042": {
+                    "type": "OPTIONAL",
+                    "name": "HERRAMIENTAS DIS. EXP. IQUI"
+                }
+            }
+        },
+        "ELECTIVAS OTRA INGENIERIA": {
+            "minimum_credits_to_pass": 2,
+            "related_bundles": [],
+            "courses": {
+                "IBIO-2099": {
+                    "type": "OPTIONAL",
+                    "name": "FISIOL. CUANTIT. ING. BIOMEDI1"
+                },
+                "IBIO-2340": {
+                    "type": "OPTIONAL",
+                    "name": "FUNDAM. DEL MACHINE LEARNING"
+                },
+                "ICYA-1101": {
+                    "type": "OPTIONAL",
+                    "name": "INTROD. PROBLEMATIC. AMBIENTAL"
+                },
+                "ICYA-1110": {
+                    "type": "OPTIONAL",
+                    "name": "QUÍMICA AMBIENTAL"
+                },
+                "ICYA-1116": {
+                    "type": "OPTIONAL",
+                    "name": "ESTÁTICA"
+                },
+                "ICYA-1125": {
+                    "type": "OPTIONAL",
+                    "name": "GEOMÁTICA"
+                },
+                "ICYA-2001": {
+                    "type": "OPTIONAL",
+                    "name": "MODELACIÓN Y ANÁLISIS NUMÉRICO"
+                },
+                "ICYA-2101": {
+                    "type": "OPTIONAL",
+                    "name": "TERMOQUÍMICA AMBIENTAL"
+                },
+                "ICYA-2401": {
+                    "type": "OPTIONAL",
+                    "name": "MECÁNICA DE FLUIDOS"
+                },
+                "ICYA-2412": {
+                    "type": "OPTIONAL",
+                    "name": "MECÁNICA DE FLUIDOS AMBIENTAL"
+                },
+                "IELE-1002": {
+                    "type": "OPTIONAL",
+                    "name": "FUNDAMENTOS DE CIRCUITOS"
+                },
+                "IELE-1010": {
+                    "type": "OPTIONAL",
+                    "name": "CIRCUITOS E INSTRUMENTACIÓN"
+                },
+                "IELE-1200": {
+                    "type": "OPTIONAL",
+                    "name": "FUNDAMENTOS SISTEMAS DIGITALES"
+                },
+                "IELE-1502": {
+                    "type": "OPTIONAL",
+                    "name": "SISTEMAS DINÁMICOS"
+                },
+                "IELE-2010": {
+                    "type": "OPTIONAL",
+                    "name": "MATERIALES PARA IEE"
+                },
+                "IELE-2300": {
+                    "type": "OPTIONAL",
+                    "name": "ANÁLISIS DE SISTEMS DE CONTROL"
+                },
+                "IELE-2500": {
+                    "type": "OPTIONAL",
+                    "name": "SEÑALES"
+                },
+                "IIND-2103": {
+                    "type": "OPTIONAL",
+                    "name": "PRINCIPIOS OPTIMIZACIÓN"
+                },
+                "IIND-2104": {
+                    "type": "OPTIONAL",
+                    "name": "MODELOS PROBABILÍSTICOS"
+                },
+                "IIND-2107": {
+                    "type": "OPTIONAL",
+                    "name": "PROBABILIDAD Y ESTADÍSTICA II"
+                },
+                "IIND-2202": {
+                    "type": "OPTIONAL",
+                    "name": "FUNDAMENTOS DE PRODUCCIÓN"
+                },
+                "IIND-2301": {
+                    "type": "OPTIONAL",
+                    "name": "DINÁMICA DE SISTEMAS"
+                },
+                "IIND-2400": {
+                    "type": "OPTIONAL",
+                    "name": "SIST. DE CONTROL GERENCIAL"
+                },
+                "IIND-3301": {
+                    "type": "OPTIONAL",
+                    "name": "SISTEMAS PÚBLICOS"
+                },
+                "IIND-3304": {
+                    "type": "OPTIONAL",
+                    "name": "NEGOCIACIÓN Y RESOL CONFLICTOS"
+                },
+                "IMEC-1201": {
+                    "type": "OPTIONAL",
+                    "name": "TERMOFLUIDOS I"
+                },
+                "IMEC-1410": {
+                    "type": "OPTIONAL",
+                    "name": "CIENCIA DE MATERIALES"
+                },
+                "IMEC-1505": {
+                    "type": "OPTIONAL",
+                    "name": "DISEÑO GRÁFICO EN INGENIERÍA"
+                },
+                "IMEC-2001": {
+                    "type": "OPTIONAL",
+                    "name": "HERRAMIENTAS COMPUTACIONALES"
+                },
+                "IMEC-2007": {
+                    "type": "OPTIONAL",
+                    "name": "TALLER DE SISTEMAS DE MEDICIÓN"
+                },
+                "IQYA-2010": {
+                    "type": "OPTIONAL",
+                    "name": "BALANCES DE MATERIA Y ENERGÍA"
+                },
+                "IQYA-2020": {
+                    "type": "OPTIONAL",
+                    "name": "TERMODINÁMICA"
+                },
+                "IQYA-2042": {
+                    "type": "OPTIONAL",
+                    "name": "HERRAMIENTAS DIS. EXP. IQUI"
+                }
+            }
+        }
+    }
+}

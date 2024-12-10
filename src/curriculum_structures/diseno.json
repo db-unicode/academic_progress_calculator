@@ -1,0 +1,560 @@
+{
+    "simple_courses": [
+        {
+            "code": "DISO 3199",
+            "name": "Trabajo de Grado"
+        },
+        {
+            "code": "DISO 1211",
+            "name": "Seminario Uno"
+        },
+        {
+            "code": "ESCR-1101",
+            "name": "Escritura Universitaria 1"
+        },
+        {
+            "code": "DERE-1300",
+            "name": "Constitución y Democracia"
+        },
+        {
+            "code": "ESCR-1102",
+            "name": "Escritura Universitaria 2"
+        },
+        {
+            "code": "CBCC-1177",
+            "name": "COL: Espacio, Tiempo, Diferencia"
+        },
+        {
+            "code": "DISO-3220",
+            "name": "Seminario Cuatro"
+        }
+    ],
+    "course_bundles": {
+        "Estudios Basicos Uno": {
+            "minimum_credits_to_pass": 6,
+            "related_bundles": [],
+            "courses": {
+                "DISO-1011": {
+                    "type": "OPTIONAL",
+                    "name": "Lenguajes"
+                },
+                "DISO-1012": {
+                    "type": "OPTIONAL",
+                    "name": "Paisajes"
+                },
+                "DISO-1013": {
+                    "type": "OPTIONAL",
+                    "name": "Redes"
+                }
+            }
+        },
+        "Estudios Basicos Dos": {
+            "minimum_credits_to_pass": 6,
+            "related_bundles": [],
+            "courses": {
+                "DISO-2011": {
+                    "type": "OPTIONAL",
+                    "name": "Apreciación"
+                },
+                "DISO-2012": {
+                    "type": "OPTIONAL",
+                    "name": "Desarrollo"
+                },
+                "DISO-2013": {
+                    "type": "OPTIONAL",
+                    "name": "Estrategia"
+                }
+            }
+        },
+        "Estudios Uno": {
+            "minimum_credits_to_pass": 4,
+            "related_bundles": [],
+            "courses": {
+                "DISO-1111": {
+                    "type": "OPTIONAL",
+                    "name": "Escenarios"
+                },
+                "DISO-1112": {
+                    "type": "OPTIONAL",
+                    "name": "Materialidades"
+                },
+                "DISO-1113": {
+                    "type": "OPTIONAL",
+                    "name": "Realidades"
+                }
+            }
+        },
+        "Estudios Dos": {
+            "minimum_credits_to_pass": 4,
+            "related_bundles": [],
+            "courses": {
+                "DISO-2111": {
+                    "type": "OPTIONAL",
+                    "name": "Trayectos"
+                },
+                "DISO-2112": {
+                    "type": "OPTIONAL",
+                    "name": "Haceres"
+                },
+                "DISO-2113": {
+                    "type": "OPTIONAL",
+                    "name": "Visiones"
+                }
+            }
+        },
+        "Estudios Tres": {
+            "minimum_credits_to_pass": 6,
+            "related_bundles": [],
+            "courses": {
+                "DISO-3011": {
+                    "type": "OPTIONAL",
+                    "name": "Creación + Investigación"
+                },
+                "DISO-3012": {
+                    "type": "OPTIONAL",
+                    "name": "Investigación + Creación"
+                },
+                "DISO-3013": {
+                    "type": "OPTIONAL",
+                    "name": "Investigación + Proyecto"
+                },
+                "DISO-3014": {
+                    "type": "OPTIONAL",
+                    "name": "Proyecto + Investigación"
+                },
+                "DISO-3015": {
+                    "type": "OPTIONAL",
+                    "name": "Creación + Proyecto"
+                },
+                "DISO-3016": {
+                    "type": "OPTIONAL",
+                    "name": "Proyecto + Creación"
+                }
+            }
+        },
+        "Estudio Cuatro": {
+            "minimum_credits_to_pass": 4,
+            "related_bundles": [],
+            "courses": {
+                "DISO-3112": {
+                    "type": "OPTIONAL",
+                    "name": "OPUS"
+                },
+                "DISO-3116": {
+                    "type": "OPTIONAL",
+                    "name": "Innovación en salud"
+                },
+                "DISO-3117": {
+                    "type": "OPTIONAL",
+                    "name": "Iniciativas positivas sociales"
+                },
+                "DISO-3118": {
+                    "type": "OPTIONAL",
+                    "name": "Co-imaginar ciudadanías"
+                },
+                "MDIS-4105": {
+                    "type": "OPTIONAL",
+                    "name": "Estudio de maestría: Babel"
+                }
+            }
+        },
+        "Semanario Dos": {
+            "minimum_credits_to_pass": 6,
+            "related_bundles": [],
+            "courses": {
+                "DISO-2211": {
+                    "type": "OPTIONAL",
+                    "name": "Anatomía de la imagen"
+                },
+                "DISO-2212": {
+                    "type": "OPTIONAL",
+                    "name": "Diseño y territorio"
+                },
+                "DISO-2213": {
+                    "type": "OPTIONAL",
+                    "name": "Pensamiento curatorial"
+                }
+            }
+        },
+        "Seminario Tres": {
+            "minimum_credits_to_pass": 2,
+            "related_bundles": [],
+            "courses": {
+                "DISO-3214": {
+                    "type": "OPTIONAL",
+                    "name": "Creación"
+                },
+                "DISO-3216": {
+                    "type": "OPTIONAL",
+                    "name": "Investigación"
+                },
+                "DISO-3218": {
+                    "type": "OPTIONAL",
+                    "name": "Proyecto"
+                }
+            }
+        },
+        "Laboratorios Uno": {
+            "minimum_credits_to_pass": 6,
+            "related_bundles": [],
+            "courses": {
+                "DISO-1311": {
+                    "type": "OPTIONAL",
+                    "name": "Conexiones complejas"
+                },
+                "DISO-1312": {
+                    "type": "OPTIONAL",
+                    "name": "Construcción Libre"
+                },
+                "DISO-1313": {
+                    "type": "OPTIONAL",
+                    "name": "Universos visuales"
+                },
+                "DISO-1314": {
+                    "type": "OPTIONAL",
+                    "name": "Bocetación experimental"
+                }
+            }
+        },
+        "Laboratorios Dos": {
+            "minimum_credits_to_pass": 6,
+            "related_bundles": [],
+            "courses": {
+                "DISO-2311": {
+                    "type": "OPTIONAL",
+                    "name": "Pensamiento algorítmico"
+                },
+                "DISO-2312": {
+                    "type": "OPTIONAL",
+                    "name": "Pensamiento material"
+                }
+            }
+        },
+        "Laboratorios Tres": {
+            "minimum_credits_to_pass": 3,
+            "related_bundles": [],
+            "courses": {
+                "DISO-3314": {
+                    "type": "OPTIONAL",
+                    "name": "Laboratorio tres: Creación"
+                },
+                "DISO-3316": {
+                    "type": "OPTIONAL",
+                    "name": "Laboratorio tres: Investigación"
+                },
+                "DISO-3318": {
+                    "type": "OPTIONAL",
+                    "name": "Laboratorio tres: Proyecto"
+                }
+            }
+        },
+        "Medios Basicos": {
+            "minimum_credits_to_pass": 6,
+            "related_bundles": [],
+            "courses": {
+                "DISO-1411": {
+                    "type": "OPTIONAL",
+                    "name": "Memoria audiovisual"
+                },
+                "DISO-1412": {
+                    "type": "OPTIONAL",
+                    "name": "Expresión Conceptual"
+                },
+                "DISO-1414": {
+                    "type": "OPTIONAL",
+                    "name": "Expresión Material"
+                },
+                "DISO-1415": {
+                    "type": "OPTIONAL",
+                    "name": "Interacciones mediadas"
+                },
+                "DISO-1416": {
+                    "type": "OPTIONAL",
+                    "name": "Narrar el diseño"
+                }
+            }
+        },
+        "Medios": {
+            "minimum_credits_to_pass": 6,
+            "related_bundles": [],
+            "courses": {
+                "DISO-2411": {
+                    "type": "OPTIONAL",
+                    "name": "Bocetación expresiva"
+                },
+                "DISO-2412": {
+                    "type": "OPTIONAL",
+                    "name": "Alfabetismo web"
+                },
+                "DISO-2413": {
+                    "type": "OPTIONAL",
+                    "name": "Fotografía"
+                },
+                "DISO-2414": {
+                    "type": "OPTIONAL",
+                    "name": "Gráfica"
+                },
+                "DISO-2415": {
+                    "type": "OPTIONAL",
+                    "name": "Ilustración"
+                },
+                "DISO-2416": {
+                    "type": "OPTIONAL",
+                    "name": "Madera"
+                },
+                "DISO-2417": {
+                    "type": "OPTIONAL",
+                    "name": "Modelado y simulación digital"
+                },
+                "DISO-2418": {
+                    "type": "OPTIONAL",
+                    "name": "Tipografía"
+                },
+                "DISO-2420": {
+                    "type": "OPTIONAL",
+                    "name": "Independencia productiva"
+                },
+                "DISO-2422": {
+                    "type": "OPTIONAL",
+                    "name": "Joyería"
+                },
+                "DISO-2423": {
+                    "type": "OPTIONAL",
+                    "name": "Patronaje y confección"
+                },
+                "DISO-2424": {
+                    "type": "OPTIONAL",
+                    "name": "Tejido de punto"
+                },
+                "DISO-2426": {
+                    "type": "OPTIONAL",
+                    "name": "Superficies textiles"
+                },
+                "DISO-2427": {
+                    "type": "OPTIONAL",
+                    "name": "Cuero"
+                },
+                "DISO-2428": {
+                    "type": "OPTIONAL",
+                    "name": "Representación en moda"
+                },
+                "DISO-2429": {
+                    "type": "OPTIONAL",
+                    "name": "Reciclaje textil"
+                },
+                "DISO-2430": {
+                    "type": "OPTIONAL",
+                    "name": "Podcast"
+                },
+                "DISO-2431": {
+                    "type": "OPTIONAL",
+                    "name": "Cuerpos y artefactos digitales"
+                },
+                "DISO-2432": {
+                    "type": "OPTIONAL",
+                    "name": "Sistemas de diseño interactivo"
+                },
+                "DISO-2433": {
+                    "type": "OPTIONAL",
+                    "name": "Herramientas y procesos con inteligencia artificial generativa"
+                }
+            }
+        },
+        "Electiva de Ciencias Basicas": {
+            "minimum_credits_to_pass": 6,
+            "related_bundles": [],
+            "courses": {
+                "BIOL-132": {
+                    "type": "OPTIONAL",
+                    "name": "Ecología: Principios y Aplicaciones"
+                },
+                "GEOC-1002": {
+                    "type": "OPTIONAL",
+                    "name": "Geociencias"
+                },
+                "MATE-1203": {
+                    "type": "OPTIONAL",
+                    "name": "Cálculo Diferencial"
+                },
+                "MATE-1501": {
+                    "type": "OPTIONAL",
+                    "name": "Estadística 1 (Ciencias Sociales)"
+                },
+                "MBIO-1100": {
+                    "type": "OPTIONAL",
+                    "name": "Biología Celular–Teoría + Biología Celular–Laboratorio"
+                },
+                "QUIM-1103": {
+                    "type": "OPTIONAL",
+                    "name": "Química + Laboratorio de Química"
+                },
+                "MATE-1201": {
+                    "type": "OPTIONAL",
+                    "name": "Precálculo"
+                }
+            }
+        },
+        "Electivas": {
+            "minimum_credits_to_pass": 20,
+            "related_bundles": [],
+            "courses": {
+                "DISO-3411": {
+                    "type": "OPTIONAL",
+                    "name": "Animación experimental"
+                },
+                "DISO-3413": {
+                    "type": "OPTIONAL",
+                    "name": "Cerámica y presencia"
+                },
+                "DISO-3414": {
+                    "type": "OPTIONAL",
+                    "name": "Creación en moda"
+                },
+                "DISO-3418": {
+                    "type": "OPTIONAL",
+                    "name": "Elaboración de prendas complejas"
+                },
+                "DISO-3419": {
+                    "type": "OPTIONAL",
+                    "name": "Exploraciones cromáticas"
+                },
+                "DISO-3420": {
+                    "type": "OPTIONAL",
+                    "name": "Expresión paramétrica"
+                },
+                "DISO-3421": {
+                    "type": "OPTIONAL",
+                    "name": "Patrones"
+                },
+                "DISO-3422": {
+                    "type": "OPTIONAL",
+                    "name": "Ornamento corporal"
+                },
+                "DISO-3423": {
+                    "type": "OPTIONAL",
+                    "name": "Especulaciones Sensoriales"
+                },
+                "DISO-3424": {
+                    "type": "OPTIONAL",
+                    "name": "Colorantes naturales"
+                },
+                "DISO-3427": {
+                    "type": "OPTIONAL",
+                    "name": "Multiversos y realidades extendidas"
+                },
+                "DISO-3511": {
+                    "type": "OPTIONAL",
+                    "name": "Biomoda"
+                },
+                "DISO-3512": {
+                    "type": "OPTIONAL",
+                    "name": "Branding"
+                },
+                "DISO-3513": {
+                    "type": "OPTIONAL",
+                    "name": "Diseño, género y sexo"
+                },
+                "DISO-3515": {
+                    "type": "OPTIONAL",
+                    "name": "Fotografia, personas y contexto"
+                },
+                "DISO-3516": {
+                    "type": "OPTIONAL",
+                    "name": "Herramientas etnográficas para la creación"
+                },
+                "DISO-3517": {
+                    "type": "OPTIONAL",
+                    "name": "Imágenes disidentes"
+                },
+                "DISO-3518": {
+                    "type": "OPTIONAL",
+                    "name": "Poéticas de la materia"
+                },
+                "DISO-3524": {
+                    "type": "OPTIONAL",
+                    "name": "Colorantes artificiales"
+                },
+                "DISO-3525": {
+                    "type": "OPTIONAL",
+                    "name": "Arte Urbano"
+                },
+                "DISO-3526": {
+                    "type": "OPTIONAL",
+                    "name": "Hongos mágicos y perversos"
+                },
+                "DISO-3615": {
+                    "type": "OPTIONAL",
+                    "name": "Investigación de experiencia de usuario para productos digitales"
+                },
+                "DISO-3616": {
+                    "type": "OPTIONAL",
+                    "name": "Desinformación y diseño"
+                },
+                "DISO-3711": {
+                    "type": "OPTIONAL",
+                    "name": "Coolhunting"
+                },
+                "DISO-3712": {
+                    "type": "OPTIONAL",
+                    "name": "Diseño de servicios"
+                },
+                "DISO-3718": {
+                    "type": "OPTIONAL",
+                    "name": "Diseño inspirado en la naturaleza"
+                },
+                "DISO-3719": {
+                    "type": "OPTIONAL",
+                    "name": "Diseñando sistemas biológicos"
+                },
+                "DISO-3813": {
+                    "type": "OPTIONAL",
+                    "name": "Diseño y turismo"
+                },
+                "DISO-3817": {
+                    "type": "OPTIONAL",
+                    "name": "Diseño y TI: Más allá del producto digital"
+                },
+                "DISO-3821": {
+                    "type": "OPTIONAL",
+                    "name": "Diseño de interfaces para productos digitales"
+                },
+                "DISO-3911": {
+                    "type": "OPTIONAL",
+                    "name": "Diseño de Información"
+                },
+                "DISO-3912": {
+                    "type": "OPTIONAL",
+                    "name": "Editorial"
+                },
+                "DISO-3913": {
+                    "type": "OPTIONAL",
+                    "name": "Espacios de Ficción"
+                },
+                "DISO-3916": {
+                    "type": "OPTIONAL",
+                    "name": "Juguetes"
+                },
+                "DISO-3917": {
+                    "type": "OPTIONAL",
+                    "name": "Mobiliario"
+                },
+                "DISO-3918": {
+                    "type": "OPTIONAL",
+                    "name": "Moda circular"
+                },
+                "DISO-3919": {
+                    "type": "OPTIONAL",
+                    "name": "Lo mágico, lo ficticio y absurdo del mundo de los niños"
+                },
+                "DISO-3923": {
+                    "type": "OPTIONAL",
+                    "name": "Transdramática"
+                },
+                "MDIS-4337": {
+                    "type": "OPTIONAL",
+                    "name": "Diseño comportamental"
+                }
+            }
+        }
+    }
+}
