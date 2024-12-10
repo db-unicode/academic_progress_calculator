@@ -27,8 +27,8 @@ Follow these steps to install and set up the project:
 
 1. Clone the repository:
     ```sh
-    git clone <REPOSITORY_URL>
-    cd <REPOSITORY_NAME>
+    git clone https://github.com/db-unicode/academic_progress_calculator.git
+    cd academic_progress_calculator
     ```
 
 2. Create and activate a virtual environment:
@@ -39,7 +39,7 @@ Follow these steps to install and set up the project:
 
 3. Install the dependencies:
     ```sh
-    pip install -r requirements.txt
+    pip install -r src/requirements.txt
     ```
 
 ---
