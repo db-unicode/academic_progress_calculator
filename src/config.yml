@@ -1,6 +1,6 @@
 data_set_path: "src/data/datos_investigacion.csv"
 report_until_date: "202520" # the format must be "YYYYSM" Year and Semester like 202420 year 2024 semester 20
-curriculum_structure_path: "src/curriculum_structures/diseno.json"
+curriculum_structure_path: "src/curriculum_structures/sistemas.json"
 output_path: "src/output"
-student_codes: "src/student_code_list/diseno_student_code_list.json"
+student_codes: "src/student_code_list/sistemas_student_code_list.json"
 report_name: "complete_report"
