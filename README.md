@@ -1,8 +1,25 @@
 # Academic Progress Calculator
 
+## Index
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Configuration Summary](#configuration-summary)
+4. [Explanation of Variables in `config.yml`](#explanation-of-variables-in-configyml)
+   - [data_set_path](#data_set_path)
+   - [report_until_date](#report_until_date)
+   - [curriculum_structure_path](#curriculum_structure_path)
+   - [output_path](#output_path)
+   - [student_codes](#student_codes)
+   - [report_name](#report_name)
+5. [Usage](#usage)
+
+---
+
 ## Description
 
 The Academic Progress Calculator is a Python-based software tool designed to analyze and compute a student's progress within a specified academic curriculum. By leveraging historical academic data, such as completed courses, grades, and credit requirements, this tool provides insightful metrics to help students, educators, and administrators evaluate academic standing and forecast graduation timelines.
+
+---
 
 ## Installation
 
@@ -25,6 +42,7 @@ Follow these steps to install and set up the project:
     pip install -r requirements.txt
     ```
 
+---
 
 ## Configuration Summary
 
@@ -42,9 +60,9 @@ All configurations are managed through the `config.yml` file.
 
 - **report_name**: This variable is used as the prefix for the generated report filenames, which follow the format `{report_name}-{student_code}.json`.
 
+---
 
-
-##  Explanation of Variables in `config.yml`
+## Explanation of Variables in `config.yml`
 
 ### `data_set_path`
 - **Type**: String
@@ -52,16 +70,12 @@ All configurations are managed through the `config.yml` file.
   - `CODIGO`, `PERIODO`, `MATERIA`, `DESCRIPCION_NIVEL_MATERIA`, `NUMERO_CREDITOS`, `DESCRIPCION_CAMPUS`, `ESTATUS_CURSO`, `DESCRIPCION_MODO_DE_CALIFICACION`, `CALIFICACION_PARCIAL`, `CALIFICACION_FINAL`, `SECCION`, `ATRIBUTO_CURSO`, `ATRIBUTO_SECCION`, `PARTE_PERIODO`, `NOMBRE_CURSO_EXAMEN`, `ESTADO_MATERIA`, `CODIGO_ASIGNATURA`, `NUMERO_CURSO`, `DESCRIPCION_ESTADO_MATERIA`, `DESCRIPCION_FACULTAD_CURSO`, `DESCRIPCION_DEPARTAMENTO_CURSO`, `CODIGO_NIVEL_PROGRAMA_1`, `NIVEL_PROGRAMA_1`, `DEPARTAMENTO_PROGRAMA_1`, `PROGRAMA_1`, `NIVEL_PROGRAMA_2`, `DEPARTAMENTO_PROGRAMA_2`, `PROGRAMA_2`, `NIVEL_PROGRAMA_3`, `DEPARTAMENTO_PROGRAMA_3`, `PROGRAMA_3`
 - **Example**: `"src/data/research_data.csv"`
 
----
-
 ### `report_until_date`
 - **Type**: String
 - **Description**: Specifies the reporting cutoff date in the format `YYYYSM`. The `YYYY` represents the year, and `SM` represents the semester:
   - `10` for the first semester.
   - `20` for the second semester.
 - **Example**: `"202520"` (Year 2025, second semester)
-
----
 
 ### `curriculum_structure_path`
 - **Type**: String
@@ -77,27 +91,22 @@ All configurations are managed through the `config.yml` file.
       - `name`: The course name.
 - **Example**: `"src/curriculum_structures/sistemas.json"`
 
----
-
 ### `output_path`
 - **Type**: String
 - **Description**: Specifies the folder path where generated reports will be saved.
 - **Example**: `"src/output"`
-
----
 
 ### `student_codes`
 - **Type**: String
 - **Description**: Path to a JSON file containing a list of student codes. These codes identify the students whose data will be processed and reported.
 - **Example**: `"src/student_code_list/sistemas_student_code_list.json"`
 
----
-
 ### `report_name`
 - **Type**: String
 - **Description**: The prefix for the report filenames. The report for each student will follow the format `{report_name}-{student_code}.json`.
 - **Example**: `"complete_report"`
 
+---
 
 ## Usage
 
@@ -105,5 +114,6 @@ Once installed and configured, run the application with the following command:
 
 ```sh
 python src/main.py
+
 ```
 For each student code listed in the config.yml file, the application will generate a report in the specified output folder. Each report will be based on the selected curriculum structure defined in the config.yml file.
